@@ -1,0 +1,95 @@
+body {background-color:blue;
+  font-family: Arial, sans-serif;
+  background-color: #fff3e0; /* हल्का भगवा */
+  background-image: url('ram-ji-background.jpg'); /* राम जी की फोटो */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(255, 204, 128, 0.9);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #88070b;
+  background-color: rgb(247, 52, 52);
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, textarea, button {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #d35400;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ba4a00;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #aaa;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4d03f;
+}
+
+img {
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+}

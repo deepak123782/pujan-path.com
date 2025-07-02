@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Online Pujan Booking Website - Book Pandit for all Hindu rituals like Katha, Yagya, Pujan, Shradh etc.">
+  <title>Pujan Booking</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <header>
+    <h1>Online Pujan Booking</h1>
+    <p>Bhagwat Katha, Ram Katha, Shiv Puran, Anushthan & Pujan Seva kisi bhi prakar ki pujan ke liye sampark kare </p>
+  </header>
+
+  <section>
+    <h2>Pandit Booking Form</h2>
+    <form>
+      <label>Naam:</label>
+      <input type="text" required>
+
+      <label>Mobile Number:</label>
+      <input type="tel" required>
+
+      <label>Email:</label>
+      <input type="email">
+
+      <label>Location (Puja kahan karwana hai):</label>
+      <input type="text" required>
+
+      <label>Pujan Date:</label>
+      <input type="date" required>
+
+      <label>Pujan Time:</label>
+      <input type="time" required>
+
+      <label>Seva Available in (Select Area):</label>
+      <select>
+        <option>Indore</option>
+        <option>Ujjain</option>
+        <option>Bhopal</option>
+        <option>Jabalpur</option>
+        <option>Other</option>
+      </select>
+
+      <label>Pujan Type (Anushthan / Katha):</label>
+      <label>Pujan Type (अनुष्ठान / कथा):</label>
+<input type="text" id="pujanInput" placeholder="उदाहरण: Bhagwat Katha">
+<div id="suggestions" class="suggestion-box"></div>
+
+      <select>
+        <option>Bhagwat Katha</option>
+        <option>Ram Katha</option>
+        <option>Shiv Puran</option>
+        <option>Narmada Puran</option>
+        <option>Devi Bhagwat</option>
+        <option>normal Puja</option>
+        <option>Sat Chandi Yagya</option>
+        <option>Nav Chandi Yagya</option>
+        <option>Ganesh Pujan</option>
+        <option>Grih Pravesh</option>
+        <option>Satyanarayan Katha</option>
+        <option>Mata Pujan</option>
+        <option>Shradh / Pind Daan</option>
+        <option>ganesh pujan</option>
+        <option>stahapana bhagvan ki(murti)</option>
+        <option>vivah</option>
+        <option> jap Anushthan</option>
+        <option> rudraabhisek</option>
+        <option> narayn bali</option>
+        <option>kul devi devta ki pujan</option>
+        <option>tilak/phaldan</option>
+        <option>navgrah shanti Yagya</option>
+        <option>durga sapsati ka path</option>
+        <option>path(sunderkand/stuti ka)</option>
+
+
+      </select>
+
+      <label>Kya Pandit ji saman layenge?</label>
+      <select>
+        <option value="with">Haan - saman ke saath (extra charge)</option>
+        <option value="without">Nahi - saman nahi chahiye</option>
+      </select>
+
+      <label>Extra Message:</label>
+      <textarea rows="3"></textarea>
+
+      <button type="submit">Book Pandit</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Pujan Charges (With/Without Saman)</h2>
+    <table border="1" cellpadding="8">
+      <tr><th>Pujan Type</th><th>With Saman (₹)</th><th>Without Saman (₹)</th></tr>
+      <tr><td>Bhagwat Katha</td><td>85000</td><td>51000</td></tr>
+      <tr><td>Ram Katha</td><td>100000</td><td>85000</td></tr>
+      <tr><td>Shiv Puran</td><td>5000</td><td>2100</td></tr>
+      <tr><td>Narmada Puran</td><td>85000</td><td>50000</td></tr>
+      <tr><td>Devi Bhagwat</td><td>51000</td><td>85000</td></tr>
+      <tr><td>Satyanarayan Katha</td><td>3500</td><td>1500</td></tr>
+      <tr><td>Grih Pravesh</td><td>25000</td><td>5100</td></tr>
+      <tr><td>Shradh / Pind Daan</td><td>3500</td><td>2100</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Payment QR Codes</h2>
+    <p>Booking confirm karne ke liye kripya payment karein:</p>
+    <img src="your_googlepay_qr.png" alt="Google Pay QR" width="200">
+    <img src="your_phonepay_qr.png" alt="PhonePe QR" width="200">
+    <img src="your_paytm_qr.png" alt="Paytm QR" width="200">
+  </section>
+
+  <section>
+    <h2>Contact Details</h2>
+    <p><strong>Phone:</strong> +91-6260180980</p>
+    <p><strong>WhatsApp:</strong> +91-6260180980</p>
+    <p><strong>Email:</strong> seva@pujanbook.com</p>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
